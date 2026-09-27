@@ -12,7 +12,7 @@
       {
         "type": "hbox", "spacing": 15,
         "children": [
-          { "type": "button", "text": "Action 1", "action": "hide" },
+          { "type": "button", "text": "Hide this screen", "action": "hide" },
           { "type": "button", "text": "Action 2", "action": "main_menu" }
         ]
       }
