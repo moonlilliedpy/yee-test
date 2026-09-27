@@ -6,7 +6,7 @@
         "type": "hbox", "spacing": 10,
         "children": [
           { "type": "text", "text": "Left Header Text Edited" },
-          { "type": "text", "text": "Right Header" }
+          { "type": "text", "text": "Right Header This text has been edited" }
         ]
       },
       {
