@@ -32,8 +32,7 @@
                                 "type": "imagebutton",
                                 "idle": "gui/ui1/choice_idle_background_ui1.webp",
                                 "hover": "gui/ui1/choice_hover_background_ui1.webp",
-                                "xsize": 200,
-                                "ysize": 80,
+                                
                                 "action": "hide"
                             },
                             {
