@@ -1,44 +1,24 @@
 [
   {
     "type": "frame",
-    "align": [0.5, 0.5],
     "children": [
       {
-        "type": "vbox",
-        "spacing": 20,
-        "align": [0.5, 0.5],
-        "children": [
-          {
-            "type": "hbox",
-            "spacing": 10,
-            "children": [
-              {
-                "type": "text",
-                "text": "Left Header Text Edited"
-              },
-              {
-                "type": "text",
-                "text": "Right Header This text has been edited"
-              }
-            ]
-          },
-          {
-            "type": "hbox",
-            "spacing": 15,
-            "children": [
-              {
-                "type": "button",
-                "text": "Hide this screen",
-                "action": "hide"
-              },
-              {
-                "type": "button",
-                "text": "Action 2",
-                "action": "main_menu"
-              }
-            ]
-          }
-        ]
+        "type": "text",
+        "text": "Left Header Text Edited"
+      },
+      {
+        "type": "text",
+        "text": "Right Header This text has been edited"
+      },
+      {
+        "type": "button",
+        "text": "Action 1",
+        "action": "hide"
+      },
+      {
+        "type": "button",
+        "text": "Action 2",
+        "action": "main_menu"
       }
     ]
   }
