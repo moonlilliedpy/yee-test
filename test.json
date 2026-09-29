@@ -32,7 +32,7 @@
                                 "type": "imagebutton",
                                 "idle": "gui/ui1/choice_idle_background_ui1.webp",
                                 "hover": "gui/ui1/choice_hover_background_ui1.webp",
-                                "focus_mask": "True",
+                                "focus_mask": true,
                                 "action": "hide"
                             },
                             {
