@@ -30,7 +30,7 @@
                         "children": [
                             {
                                 "type": "imagebutton",
-                                "idle": "gui/ui1/choice_idle_background_ui1.webp",
+                                "idle": "Transform(\"gui/ui1/choice_idle_background_ui1.webp\", zoom=0.5)",
                                 "hover": "gui/ui1/choice_hover_background_ui1.webp",
                                 "focus_mask": true,
                                 "action": "hide"
