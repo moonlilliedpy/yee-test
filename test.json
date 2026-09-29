@@ -30,10 +30,11 @@
                         "children": [
                             {
                                 "type": "imagebutton",
-                                "idle": "(lambda img: Transform(img, xzoom=0.5))(\"gui/ui1/choice_idle_background_ui1.webp\")",
+                                "idle": "gui/ui1/choice_idle_background_ui1.webp",
                                 "hover": "gui/ui1/choice_hover_background_ui1.webp",
                                 "focus_mask": true,
                                 "action": "hide"
+                                "zoom": 0.5
                             },
                             {
                                 "type": "button",
