@@ -21,6 +21,10 @@
                             {
                                 "type": "text",
                                 "text": "Right Header This text has been edited"
+                            },
+                            {
+                                "type": "null",
+                                "height": 25
                             }
                         ]
                     },
