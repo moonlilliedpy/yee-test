@@ -3,6 +3,10 @@
         "type": "frame",
         "children": [
             {
+                "type": "null",
+                "height": 200
+            },
+            {
                 "type": "vbox",
                 "spacing": 20,
                 "align": [
@@ -17,10 +21,6 @@
                             {
                                 "type": "text",
                                 "text": "Left Header Text Edited"
-                            },
-                            {
-                                "type": "null",
-                                "height": 200
                             },
                             {
                                 "type": "text",
