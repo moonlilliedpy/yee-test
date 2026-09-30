@@ -19,6 +19,10 @@
                                 "text": "Left Header Text Edited"
                             },
                             {
+                                "type": "null",
+                                "height": 200
+                            },
+                            {
                                 "type": "text",
                                 "text": "Right Header This text has been edited"
                             }
