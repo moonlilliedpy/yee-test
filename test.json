@@ -48,6 +48,11 @@
                                 "at": "fade_up_inplace2(distance=40, duration=1.0, delay=0.7)"
                             }
                         ]
+                    },
+                    {
+                        "type": "image",
+                        "savedir_image": "community1.png",
+                        "zoom": 0.5
                     }
                 ]
             }
