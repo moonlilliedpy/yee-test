@@ -12,7 +12,7 @@
                 "children": [
                     {
                         "type": "hbox",
-                        "spacing": 10,
+                        "spacing": "10",
                         "children": [
                             {
                                 "type": "text",
@@ -24,13 +24,13 @@
                             },
                             {
                                 "type": "null",
-                                "height": 25
+                                "height": "25"
                             }
                         ]
                     },
                     {
                         "type": "hbox",
-                        "spacing": 15,
+                        "spacing": "15",
                         "children": [
                             {
                                 "type": "imagebutton",
