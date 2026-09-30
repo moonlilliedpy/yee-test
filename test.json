@@ -19,10 +19,6 @@
                                 "text": "Left Header Text Edited"
                             },
                             {
-                                "type": "null",
-                                "width": 25
-                            },
-                            {
                                 "type": "text",
                                 "text": "Right Header This text has been edited"
                             }
