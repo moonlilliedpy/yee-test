@@ -40,8 +40,8 @@
                             {
                                 "type": "button",
                                 "text": "Action 2",
-                                "idle": "gui/ui1/choice_idle_background_ui1.webp",
-                                "hover": "gui/ui1/choice_hover_background_ui1.webp",
+                                "background": "gui/ui1/choice_idle_background_ui1.webp",
+                                "hover_background": "gui/ui1/choice_hover_background_ui1.webp",
                                 "focus_mask": true,
                                 "action": "hide",
                                 "zoom": 0.5,
