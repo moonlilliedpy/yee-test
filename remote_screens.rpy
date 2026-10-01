@@ -91,7 +91,7 @@ screen remote_community_contents():
                 action OpenURL("https://dpy.itch.io/dpy/comments?after=0")
     null height 80
 
-screen remote_community_contents():
+screen remote_support_contents():
     text "Follow & Support Development" size 65 style ("menu_text_ui1" if ui_style == 1 else "menu_text_ui2") xalign 0.5
     frame:
         xalign 0.5
