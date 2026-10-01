@@ -91,3 +91,62 @@ screen remote_community_contents():
                 action OpenURL("https://dpy.itch.io/dpy/comments?after=0")
     null height 80
 
+
+
+
+
+
+
+screen remote_support_contents():
+    text "Follow & Support Development" size 65 style ("menu_text_ui1" if ui_style == 1 else "menu_text_ui2") xalign 0.5
+    frame:
+        xalign 0.5
+        style ("ui1_frame" if ui_style == 1 else "ui2_frame")
+        hbox:                        
+            imagebutton:
+                    idle Transform("gui/presskitsocials/patreon_logo.webp", zoom=0.41)
+                    action OpenURL("https://discord.com/channels/1536169862341333012")
+            imagebutton:
+                    idle Transform("gui/presskitsocials/patreon_word.webp", zoom=0.41)
+                    action OpenURL("https://discord.com/channels/1536169862341333012")
+                    yalign 0.5
+        
+    text "If you want to keep up with development, Q&A polls and lore, you can drop into the free tier to sneak a peek of what's going on. We appreciate your support!" size 45 style ("menu_text_ui1" if ui_style == 1 else "menu_text_ui2") xalign 0.5
+    if ui_style == 1:
+        add Transform("gui/ui1/gamemenubackgroundtitleline_ui1.png", xzoom=0.9, alpha=0.75) #yalign -0 at fade_up(0, 155, distance=40, duration=1.0, delay=1)
+    else:
+        add Transform("gui/ui2/gamemenubackgroundtitleline_ui2.png", xzoom=0.9, alpha=0.75) #yalign -0 at fade_up(0, 155, distance=40, duration=1.0, delay=1)
+###########################################################################################
+### MERCHANDISE
+###########################################################################################
+    text "Merchandise" size 65 style ("menu_text_ui1" if ui_style == 1 else "menu_text_ui2")xalign 0.5
+    if ui_style == 1:
+        add Transform("gui/ui1/gamemenubackgroundtitleline_ui1.png", xzoom=0.9, alpha=0.30, yzoom=0.4) xalign -0.406 #yalign -0 at fade_up(0, 155, distance=40, duration=1.0, delay=1)
+    else:
+        add Transform("gui/ui2/gamemenubackgroundtitleline_ui2.png", xzoom=0.9, alpha=0.50, yzoom=0.4) xalign -0.406 #yalign -0 at fade_up(0, 155, distance=40, duration=1.0, delay=1)
+    
+    hbox:
+        spacing 20
+        xalign 0.5
+        text "New Keychain Pre-Order" size 50 style ("menu_text_ui1" if ui_style == 1 else "menu_text_ui2")
+        imagebutton:
+            idle Transform("gui/presskitsocials/x_logo.webp", zoom=0.15)
+            action OpenURL("https://discord.com/channels/1536169862341333012")
+    add Transform("images/temp/squashed.png", zoom=0.3) xalign 0.5
+    #image for contest promo
+    text "Pre-Orders are available until December 12th!" size 45 style ("menu_text_ui1" if ui_style == 1 else "menu_text_ui2")xalign 0.5
+
+    if ui_style == 1:
+        add Transform("gui/ui1/gamemenubackgroundtitleline_ui1.png", xzoom=0.9, alpha=0.30, yzoom=0.4) xalign -0.406 #yalign -0 at fade_up(0, 155, distance=40, duration=1.0, delay=1)
+    else:
+        add Transform("gui/ui2/gamemenubackgroundtitleline_ui2.png", xzoom=0.9, alpha=0.50, yzoom=0.4) xalign -0.406 #yalign -0 at fade_up(0, 155, distance=40, duration=1.0, delay=1)
+    text "All Prints 30% off until November 10th" size 50 style ("menu_text_ui1" if ui_style == 1 else "menu_text_ui2")xalign 0.5
+    add "images/temp/piam.png" xalign 0.5
+    text "(Shop link to on sale print listing collection)" size 45 style ("menu_text_ui1" if ui_style == 1 else "menu_text_ui2")xalign 0.5
+
+
+    if ui_style == 1:
+        add Transform("gui/ui1/gamemenubackgroundtitleline_ui1_opaque.webp", xzoom=0.9) #yalign -0 at fade_up(0, 155, distance=40, duration=1.0, delay=1)
+    else:
+        add Transform("gui/ui2/gamemenubackgroundtitleline_ui2.png", xzoom=0.9) xalign -0.406 #yalign -0 at fade_up(0, 155, distance=40, duration=1.0, delay=1)
+    null height 80
