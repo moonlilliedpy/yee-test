@@ -1,4 +1,5 @@
-#screen tests
+#Online Versions of Remote Screen ID# 01
+#---------------------------------------------------------------------------------------#
 screen remote_community_contents():
     text "Community Platforms" size 65 style ("menu_text_ui1" if ui_style == 1 else "menu_text_ui2") xalign 0.5
     frame:
